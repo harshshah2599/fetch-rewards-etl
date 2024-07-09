@@ -67,10 +67,10 @@ To verify if the ETL application works seamlessly, run the below commands to che
 	5. Date Parsing: Assumed `create_date` is in the YYYY-MM-DD format.
 
 #### Why use SHA256 for data masking? Can data analysts easily find duplicates using this?
-`SHA-256 is a cryptographic hash function that can be used to mask sensitive information(PII). It generates a fixed-size 256-bit hash that is unique to the input data. Using SHA-256 ensures that the original data cannot be easily recovered, providing a strong layer of security for sensitive information. Data analysts can easily find duplicates using SHA-256. Although the original data is masked and cannot be retrieved directly, the same input value will always produce the same hash output. This means that duplicate values in the original data will result in identical hash values, allowing analysts to identify duplicates without exposing the sensitive information.`
+SHA-256 is a cryptographic hash function that can be used to mask sensitive information(PII). It generates a fixed-size 256-bit hash that is unique to the input data. Using SHA-256 ensures that the original data cannot be easily recovered, providing a strong layer of security for sensitive information. Data analysts can easily find duplicates using SHA-256. Although the original data is masked and cannot be retrieved directly, the same input value will always produce the same hash output. This means that duplicate values in the original data will result in identical hash values, allowing analysts to identify duplicates without exposing the sensitive information.`
 
 #### How can PII be recovered later on?
-`To recover the original PII values, the mappings of hashed values to original values can be stored in a secure, access-controlled database. This allows for the reversal of the masking process if necessary, while maintaining security and compliance with privacy regulations.`
+To recover the original PII values, the mappings of hashed values to original values can be stored in a secure, access-controlled database. This allows for the reversal of the masking process if necessary, while maintaining security and compliance with privacy regulations.`
 
 
 ## Production Deployment
