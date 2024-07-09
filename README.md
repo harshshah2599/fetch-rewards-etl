@@ -62,7 +62,15 @@ To verify if the ETL application works seamlessly, run the below commands to che
 
 <img width="500" alt="Screenshot 2024-07-08 at 9 48 23 PM" src="https://github.com/harshshah2599/fetch-rewards-etl/assets/114712818/a010f322-b23d-4ee5-94a8-0c015e26d159">
 
+## View the Data 
 
+To easily compare and understand the data extracted from SQS and loaded into Postgres, I have created functions that allow to directly view the data.
+
+To use these functions, run the following command:
+
+`python view_data.py`
+
+You will be presented with a menu to select whether you want to view the raw data or the transformed data. Simply choose your option, and the corresponding data will be displayed.
 
 ## Assumptions and Decisions
 
