@@ -22,8 +22,8 @@ This project demonstrates a comprehensive development of an ETL (Extract, Transf
 ### Installation
 
 	1. Clone the repository:
-`git clone <repository-url>`\
-`cd <repository-directory>`
+`git clone [<repository-url>](https://github.com/harshshah2599/fetch-rewards-etl)`\
+`cd fetch-rewards-etl`
 
 	2. Install required packages:
 `pip install requirements.txt`
@@ -66,7 +66,7 @@ To verify if the ETL application works seamlessly, run the below commands to che
 
 To easily compare and understand the data extracted from SQS and loaded into Postgres, I have created functions that allow to directly view the data.
 
-To use these functions, run the following command:
+To use these functions, make sure you are inside the project directory and run the following command:
 
 `python view_data.py`
 
