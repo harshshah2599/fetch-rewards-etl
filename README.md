@@ -107,8 +107,6 @@ For example, there could be messages which have inconsistent data and may give e
 
 We can use AWS Auto Scaling for SQS and Kubernetes to automatically scale resources based on load, ensuring the application can handle varying levels of traffic efficiently. Partitioning the Postgres database will help manage large datasets more effectively, improving query performance and data organization. Implementing distributed processing with tools like Apache Kafka and Spark will enable real-time data processing and enhance the system’s ability to handle large volumes of data. Additionally, optimizing database queries and using indexing will further improve performance, reducing latency and increasing overall efficiency.
 
-**Suggestion** - Wrapping the application with a frontend using Streamlit will allow for an intuitive and interactive user interface, enabling users to easily execute ETL operations, monitor data processing, and visualize the results without needing to interact with the code directly. This approach can enhance user experience and facilitate better data insights and management.
-
 
 ## Conclusion
 
