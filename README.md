@@ -53,14 +53,14 @@ To verify if the ETL application works seamlessly, run the below commands to che
 	• Read a message from the queue:
 `awslocal sqs receive-message --queue-url http://localhost:4566/000000000000/login-queue`
 
-<img width="800" alt="Screenshot 2024-07-08 at 9 47 41 PM" src="https://github.com/harshshah2599/fetch-rewards-etl/assets/114712818/6e617704-530c-4220-8392-7a3f61f83670">
+<img width="500" alt="Screenshot 2024-07-08 at 9 47 41 PM" src="https://github.com/harshshah2599/fetch-rewards-etl/assets/114712818/6e617704-530c-4220-8392-7a3f61f83670">
 
 
 	• Connect to the Postgres database and verify the table:
 `psql -d postgres -U postgres -p 5432 -h localhost -W`\
 `SELECT * FROM user_logins;`
 
-<img width="800" alt="Screenshot 2024-07-08 at 9 48 23 PM" src="https://github.com/harshshah2599/fetch-rewards-etl/assets/114712818/a010f322-b23d-4ee5-94a8-0c015e26d159">
+<img width="500" alt="Screenshot 2024-07-08 at 9 48 23 PM" src="https://github.com/harshshah2599/fetch-rewards-etl/assets/114712818/a010f322-b23d-4ee5-94a8-0c015e26d159">
 
 
 
