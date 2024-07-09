@@ -22,13 +22,14 @@ This project demonstrates a comprehensive development of an ETL (Extract, Transf
 ### Installation
 
 	1. Clone the repository:
-`git clone https://github.com/harshshah2599/fetch-rewards-etl`\
+`git clone https://github.com/harshshah2599/fetch-rewards-etl`
+	2. Make sure to check the directory of the project, change the directly to make sure you are inside the project folder:
 `cd fetch-rewards-etl`
 
-	2. Install required packages:
+	3. Install required packages:
 `pip install requirements.txt`
 
-    3. Start Docker containers:
+    4. Start Docker containers:
 `docker-compose up -d`
 
 ## Running the Application:
