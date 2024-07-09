@@ -22,7 +22,7 @@ This project demonstrates a comprehensive development of an ETL (Extract, Transf
 ### Installation
 
 	1. Clone the repository:
-`git clone [<repository-url>](https://github.com/harshshah2599/fetch-rewards-etl)`\
+`git clone https://github.com/harshshah2599/fetch-rewards-etl`\
 `cd fetch-rewards-etl`
 
 	2. Install required packages:
