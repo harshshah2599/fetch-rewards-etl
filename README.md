@@ -23,6 +23,7 @@ This project demonstrates a comprehensive development of an ETL (Extract, Transf
 
 	1. Clone the repository:
 `git clone https://github.com/harshshah2599/fetch-rewards-etl`
+
 	2. Make sure to check the directory of the project, change the directly to make sure you are inside the project folder:
 `cd fetch-rewards-etl`
 
